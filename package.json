@@ -1,0 +1,19 @@
+{
+  "name": "suhui_stargauge",
+  "version": "0.0.1",
+  "description": "Su Hui's Star Gauge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USVTBioC/SuHui_Stargauge.git"
+  },
+  "author": "Rishat Muhametshin <rishatmuhametshin@gmail.com> (http://rishat.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/USVTBioC/SuHui_Stargauge/issues"
+  },
+  "homepage": "https://github.com/USVTBioC/SuHui_Stargauge#readme"
+}
