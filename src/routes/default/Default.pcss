@@ -1,11 +1,27 @@
-.default {
-  background-color: rgba(10, 10, 10, 0.5);
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+}
 
-  @media (min-width: 768px) {
-    background-color: rgba(10, 10, 10, 0.25);
-  }
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
 
-  @media (min-width: 1024px) {
-    background-color: rgba(10, 10, 10, 0.125);
+.col {
+  height: 32px;
+  width: 32px;
+  margin: 5px;
+  font-family: serif;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1;
+  color: black;
+
+  &_fitVertical {
+    height: auto;
+    width: auto;
+    margin: 2px;
+    font-size: calc(100vh / 29 - 4px);
   }
 }
