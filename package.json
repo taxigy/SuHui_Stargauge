@@ -4,7 +4,8 @@
   "description": "Su Hui's Star Gauge",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch --progress",
+    "dev": "webpack-dev-server --watch --progress",
+    "build": "webpack --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -40,6 +41,7 @@
     "react-dom": "^15.4.2",
     "style-loader": "^0.16.0",
     "universal-router": "^2.0.0",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }

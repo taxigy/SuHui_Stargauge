@@ -1,9 +1,10 @@
+import React from 'react';
 import Default from './Default';
 
 export const route = {
   path: '/',
   action: () => ({
-    component: Default,
+    component: <Default />,
   }),
 };
 

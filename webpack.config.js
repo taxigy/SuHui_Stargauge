@@ -16,7 +16,7 @@ module.exports = {
     }, {
       test: /\.p?css$/,
       use: ExtractTextPlugin.extract({
-        fallbackLoader: [{
+        fallback: [{
           loader: 'style-loader',
         }],
         use: [{
@@ -34,4 +34,7 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('bundle.css'),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
 };
