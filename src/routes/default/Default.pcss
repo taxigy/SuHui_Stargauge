@@ -11,17 +11,23 @@
 .col {
   height: 32px;
   width: 32px;
-  margin: 5px;
+  padding: 5px;
   font-family: serif;
   font-weight: 200;
   font-size: 32px;
   line-height: 1;
   color: black;
+  user-select: none;
+  transition: all 220ms ease;
+
+  &_highlighted {
+    background-color: rgba(120, 240, 120, 0.25);
+  }
 
   &_fitVertical {
     height: auto;
     width: auto;
-    margin: 2px;
+    padding: 2px;
     font-size: calc(100vh / 29 - 4px);
   }
 }
