@@ -1,0 +1,47 @@
+.Default__root--uuG0w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.Default__row--2Tr1k {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.Default__col--2auTU {
+  height: 32px;
+  width: 32px;
+  padding: 5px;
+  font-family: serif;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 220ms ease;
+  transition: all 220ms ease
+}
+
+.Default__col_highlighted--2gd0F {
+  background-color: rgba(120, 240, 120, 0.25);
+}
+
+.Default__col_fitVertical--3lP12 {
+  height: auto;
+  width: auto;
+  padding: 2px;
+  font-size: calc(100vh / 29 - 4px);
+}

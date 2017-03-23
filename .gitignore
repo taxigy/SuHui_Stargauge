@@ -1,4 +1,3 @@
 node_modules/
 **/*.sw[op]
-build/
 npm-debug.log
